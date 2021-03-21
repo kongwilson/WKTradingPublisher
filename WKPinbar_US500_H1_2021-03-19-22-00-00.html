@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>US500</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="c04e6cc0e3e84baa94b07d85ecbdcd91" class="chart-container" style="width:1440px; height:790px;"></div>
+    <script>
+        var chart_c04e6cc0e3e84baa94b07d85ecbdcd91 = echarts.init(
+            document.getElementById('c04e6cc0e3e84baa94b07d85ecbdcd91'), 'white', {renderer: 'canvas'});
+        var option_c04e6cc0e3e84baa94b07d85ecbdcd91 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "candlestick",
+            "name": "US500",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "data": [
+                [
+                    3915.22,
+                    3921.97,
+                    3899.72,
+                    3925.47
+                ],
+                [
+                    3921.97,
+                    3926.72,
+                    3919.22,
+                    3928.47
+                ],
+                [
+                    3926.97,
+                    3927.47,
+                    3918.97,
+                    3929.97
+                ],
+                [
+                    3927.72,
+                    3931.22,
+                    3918.47,
+                    3931.22
+                ],
+                [
+                    3930.72,
+                    3930.97,
+                    3930.72,
+                    3931.45
+                ]
+            ],
+            "markLine": {
+                "silent": false,
+                "symbol": "none",
+                "precision": 5,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "dash",
+                    "color": "#14b143"
+                },
+                "data": [
+                    {
+                        "yAxis": 3930.97
+                    }
+                ]
+            },
+            "itemStyle": {
+                "color": "#14b143",
+                "color0": "#ef232a",
+                "borderColor": "#14b143",
+                "borderColor0": "#ef232a"
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "long",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 10,
+            "data": [
+                [
+                    "2021-03-19\n21:00",
+                    3918.47
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "dash",
+                    "color": "#1c6b25"
+                },
+                "data": [
+                    [
+                        {
+                            "xAxis": "2021-03-19\n21:00",
+                            "yAxis": 3929.67
+                        },
+                        {
+                            "xAxis": "2021-03-19\n21:00",
+                            "yAxis": 3918.02
+                        }
+                    ]
+                ]
+            },
+            "itemStyle": {
+                "color": "#1c6b25"
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "short",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 10,
+            "data": [],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "dash",
+                    "color": "#963005"
+                },
+                "data": []
+            },
+            "itemStyle": {
+                "color": "#963005"
+            }
+        },
+        {
+            "type": "line",
+            "name": "Profit History",
+            "connectNulls": false,
+            "xAxisIndex": 1,
+            "yAxisIndex": 1,
+            "symbolSize": 4,
+            "showSymbol": false,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "data": [
+                [
+                    "2021-03-19\n18:00",
+                    0.0
+                ],
+                [
+                    "2021-03-19\n19:00",
+                    0.0
+                ],
+                [
+                    "2021-03-19\n20:00",
+                    0.0
+                ],
+                [
+                    "2021-03-19\n21:00",
+                    -30.07
+                ],
+                [
+                    "2021-03-19\n22:00",
+                    -30.07
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.5,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "US500",
+                "long",
+                "short"
+            ],
+            "selected": {
+                "US500": true,
+                "long": true,
+                "short": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        },
+        {
+            "data": [
+                "Profit History"
+            ],
+            "selected": {
+                "Profit History": true
+            },
+            "show": true,
+            "top": "630px",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": false,
+                "onZeroAxisIndex": 0
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 20,
+            "boundaryGap": false,
+            "min": "dataMin",
+            "max": "dataMax",
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2021-03-19\n18:00",
+                "2021-03-19\n19:00",
+                "2021-03-19\n20:00",
+                "2021-03-19\n21:00",
+                "2021-03-19\n22:00"
+            ]
+        },
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 1,
+            "axisLabel": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2021-03-19\n18:00",
+                "2021-03-19\n19:00",
+                "2021-03-19\n20:00",
+                "2021-03-19\n21:00",
+                "2021-03-19\n22:00"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        },
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 1,
+            "axisLine": {
+                "show": true,
+                "onZero": false,
+                "onZeroAxisIndex": 0
+            },
+            "axisTick": {
+                "show": false,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 3,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "US500",
+            "subtext": "Profit: -30.07, Win Rate: 0.0%, Max Drawdown: -30.07",
+            "left": "0",
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "text": "Profit History",
+            "top": "600px",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 75,
+            "end": 100,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                1
+            ],
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                1
+            ],
+            "zoomLock": false,
+            "top": "600px",
+            "filterMode": "filter"
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "bottom": "230px",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        },
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "top": "600px",
+            "bottom": "40px",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_c04e6cc0e3e84baa94b07d85ecbdcd91.setOption(option_c04e6cc0e3e84baa94b07d85ecbdcd91);
+    </script>
+</body>
+</html>
