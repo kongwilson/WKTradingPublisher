@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EURNZD</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="b57303cf812648cc9f2450061142b033" class="chart-container" style="width:1440px; height:600px;"></div>
+    <script>
+        var chart_b57303cf812648cc9f2450061142b033 = echarts.init(
+            document.getElementById('b57303cf812648cc9f2450061142b033'), 'white', {renderer: 'canvas'});
+        var option_b57303cf812648cc9f2450061142b033 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "candlestick",
+            "name": "EURNZD",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "data": [
+                [
+                    1.66106,
+                    1.66197,
+                    1.65956,
+                    1.66298
+                ],
+                [
+                    1.66209,
+                    1.66168,
+                    1.66107,
+                    1.66258
+                ],
+                [
+                    1.66176,
+                    1.66154,
+                    1.66098,
+                    1.66215
+                ],
+                [
+                    1.66164,
+                    1.66205,
+                    1.65992,
+                    1.6622
+                ],
+                [
+                    1.66209,
+                    1.66212,
+                    1.66206,
+                    1.66236
+                ]
+            ],
+            "markLine": {
+                "silent": false,
+                "symbol": "none",
+                "precision": 5,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "dash",
+                    "color": "#14b143"
+                },
+                "data": [
+                    {
+                        "yAxis": 1.66212
+                    }
+                ]
+            },
+            "itemStyle": {
+                "color": "#14b143",
+                "color0": "#ef232a",
+                "borderColor": "#14b143",
+                "borderColor0": "#ef232a"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "EURNZD"
+            ],
+            "selected": {
+                "EURNZD": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": false,
+                "onZeroAxisIndex": 0
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 20,
+            "boundaryGap": false,
+            "min": "dataMin",
+            "max": "dataMax",
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2021-03-22\n00:00",
+                "2021-03-22\n01:00",
+                "2021-03-22\n02:00",
+                "2021-03-22\n03:00",
+                "2021-03-22\n04:00"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "EURNZD",
+            "subtext": "WKPinbar",
+            "left": "0",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 75,
+            "end": 100,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                0
+            ],
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                0
+            ],
+            "zoomLock": false,
+            "top": "600px",
+            "filterMode": "filter"
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "bottom": "40px",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_b57303cf812648cc9f2450061142b033.setOption(option_b57303cf812648cc9f2450061142b033);
+    </script>
+</body>
+</html>
