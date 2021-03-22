@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EURJPY</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="5d930d15b93d40449570dbe4e493dc10" class="chart-container" style="width:1440px; height:600px;"></div>
+    <script>
+        var chart_5d930d15b93d40449570dbe4e493dc10 = echarts.init(
+            document.getElementById('5d930d15b93d40449570dbe4e493dc10'), 'white', {renderer: 'canvas'});
+        var option_5d930d15b93d40449570dbe4e493dc10 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "candlestick",
+            "name": "EURJPY",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "data": [
+                [
+                    129.038,
+                    129.4,
+                    129.029,
+                    129.472
+                ],
+                [
+                    129.401,
+                    129.387,
+                    129.358,
+                    129.471
+                ],
+                [
+                    129.386,
+                    129.439,
+                    129.379,
+                    129.463
+                ],
+                [
+                    129.44,
+                    129.409,
+                    129.265,
+                    129.466
+                ],
+                [
+                    129.407,
+                    129.418,
+                    129.407,
+                    129.42
+                ]
+            ],
+            "markLine": {
+                "silent": false,
+                "symbol": "none",
+                "precision": 5,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "dash",
+                    "color": "#14b143"
+                },
+                "data": [
+                    {
+                        "yAxis": 129.418
+                    }
+                ]
+            },
+            "itemStyle": {
+                "color": "#14b143",
+                "color0": "#ef232a",
+                "borderColor": "#14b143",
+                "borderColor0": "#ef232a"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "EURJPY"
+            ],
+            "selected": {
+                "EURJPY": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": false,
+                "onZeroAxisIndex": 0
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 20,
+            "boundaryGap": false,
+            "min": "dataMin",
+            "max": "dataMax",
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2021-03-22\n01:00",
+                "2021-03-22\n02:00",
+                "2021-03-22\n03:00",
+                "2021-03-22\n04:00",
+                "2021-03-22\n05:00"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "EURJPY",
+            "subtext": "WKPinbar",
+            "left": "0",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 75,
+            "end": 100,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                0
+            ],
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                0
+            ],
+            "zoomLock": false,
+            "top": "600px",
+            "filterMode": "filter"
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "bottom": "40px",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_5d930d15b93d40449570dbe4e493dc10.setOption(option_5d930d15b93d40449570dbe4e493dc10);
+    </script>
+</body>
+</html>
