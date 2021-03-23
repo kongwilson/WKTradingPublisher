@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HK50</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="365e8842413d48e0a811684670e0f6fd" class="chart-container" style="width:1440px; height:600px;"></div>
+    <script>
+        var chart_365e8842413d48e0a811684670e0f6fd = echarts.init(
+            document.getElementById('365e8842413d48e0a811684670e0f6fd'), 'white', {renderer: 'canvas'});
+        var option_365e8842413d48e0a811684670e0f6fd = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "candlestick",
+            "name": "HK50",
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "data": [
+                [
+                    28976.5,
+                    28977.6,
+                    28953.6,
+                    28998.6
+                ],
+                [
+                    29019.8,
+                    28471.8,
+                    28365.8,
+                    29020.8
+                ],
+                [
+                    28439.8,
+                    28478.8,
+                    28304.7,
+                    28496.7
+                ],
+                [
+                    28479.1,
+                    28501.7,
+                    28382.2,
+                    28515.7
+                ],
+                [
+                    28501.8,
+                    28507.7,
+                    28501.8,
+                    28507.8
+                ]
+            ],
+            "markLine": {
+                "silent": false,
+                "symbol": "none",
+                "precision": 5,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "dash",
+                    "color": "#14b143"
+                },
+                "data": [
+                    {
+                        "yAxis": 28507.7
+                    }
+                ]
+            },
+            "itemStyle": {
+                "color": "#14b143",
+                "color0": "#ef232a",
+                "borderColor": "#14b143",
+                "borderColor0": "#ef232a"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "HK50"
+            ],
+            "selected": {
+                "HK50": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": false,
+                "onZeroAxisIndex": 0
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 20,
+            "boundaryGap": false,
+            "min": "dataMin",
+            "max": "dataMax",
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2021-03-22\n20:00",
+                "2021-03-23\n04:00",
+                "2021-03-23\n08:00",
+                "2021-03-23\n12:00",
+                "2021-03-23\n16:00"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": true,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "HK50",
+            "subtext": "WKPinbar",
+            "left": "0",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 75,
+            "end": 100,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                0
+            ],
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "xAxisIndex": [
+                0,
+                0
+            ],
+            "zoomLock": false,
+            "top": "600px",
+            "filterMode": "filter"
+        }
+    ],
+    "grid": [
+        {
+            "show": false,
+            "zlevel": 0,
+            "z": 2,
+            "bottom": "40px",
+            "containLabel": false,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1
+        }
+    ]
+};
+        chart_365e8842413d48e0a811684670e0f6fd.setOption(option_365e8842413d48e0a811684670e0f6fd);
+    </script>
+</body>
+</html>
